@@ -2,7 +2,6 @@
 # example of checking the status of an asynchronous task
 from time import sleep
 from concurrent.futures import ThreadPoolExecutor
-from concurrent.futures import wait
 
 # task function executed in a worker thread
 def work():
@@ -20,7 +19,7 @@ if __name__ == '__main__':
         done = future.done()
         print(f'Future running={running}, done={done}')
         # wait for the task to complete
-        wait([future])
+        future.result()
         # confirm that the task is done
         running = future.running()
         done = future.done()

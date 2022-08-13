@@ -7,7 +7,7 @@ from concurrent.futures import ThreadPoolExecutor
 # custom function to be executed in a worker thread
 def task(number, value):
     # report a message
-    print(f'Task generated {value}')
+    print(f'Task received {value}')
     # block for a moment to simulate work
     sleep(value)
     # return a new value
