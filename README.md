@@ -18,7 +18,12 @@ You can access all Python .py files directly here:
 
 You can learn more about the book here:
 
-* Soon...
+* [Gumroad](https://superfastpython.gumroad.com/l/ptpej)
+* [Amazon Kindle](https://amzn.to/3JRBblq)
+* [Amazon Paperback](https://amzn.to/3zUGgF9)
+* [Google Play](https://play.google.com/store/books/details?id=xAOBEAAAQBAJ)
+* [Google Books](https://books.google.com/books/about?id=xAOBEAAAQBAJ)
+* [Goodreads](https://www.goodreads.com/book/show/61951717-python-threadpoolexecutor-jump-start)
 
 ### Book Blurb
 
